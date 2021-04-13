@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Gestion de la plage */
+body{background-color: black;}
+#canvas{width: 1100px;background-image: url("../img/background.png");background-size: contain;background-repeat: no-repeat;margin: 0 auto;}
+/************************************************/
+
+/* Gestion du guide de jeu */
+#HowToPlay{color: white;float: left;width: 200px;}
+.TitreHow{font-size: larger;font-weight: bold;}
+.TextHow{margin-top: -7%;}
+/************************************************/
+
+/* Gestion du top scrore */
+#Highlist{
+	float: right;
+	color: white;
+	width: 200px;
+}
+/************************************************/
+
+/* Gestion du haut de la table */
+#TeteDeTable{margin-bottom: 10%;}
+#BouttonStart{display: inline-grid;}
+#BouttonGame{display: inline-grid;float: right;}
+/************************************************/
+
+/* Gestion de l'affichage du Dealer */
+#TextDealer{text-align: center;margin-top: 2%;}
+#dealer-hand{display: flex;width: 62px;height: 90px;margin-left: 46%;color: black;}
+#dealer-hand-value{margin-left: 47%;margin-right: 47%;width: 60px;height: 18px;background-color: black;color: white;}
+/************************************************/
+
+/* Gestion de l'affichage du Joueur */
+#TextPlayer{text-align: center;}
+#player-hand{display: flex;width: 62px;height: 90px;margin-left: 46%;color: white;}
+#player-hand-value{margin-left: 47%;margin-right: 47%;width: 60px;height: 18px;background-color: black;color: white;}
+.BoxHtml{color: white;}
+/************************************************/
+
+/* Gestion des Cartes */
+.Carte{height: 90px;width: 62px;background-size: contain;background-repeat: no-repeat;margin-right: -40px;}
+/************************************************/
+
+/* Gestion des jetons */
+#BoiteJeton{float: right;color: white;margin-top: -25px;height: 200px;}
+#LesJetons{display: flex;}
+.Jeton{margin-top: -15px;width: 40px;height: auto;}
+#RangJeton1{display: grid;margin-top: 25px;}
+#RangJeton5{display: grid;margin-top: 25px; margin-left: 40px;}
+#RangJeton10{display: grid;margin-top: 25px;margin-left: 40px;}
+#RangJeton20{display: grid;margin-top: 25px;margin-left: 40px;}
+#RangJeton50{display: grid;margin-top: 25px;margin-left: 40px;}
+#LesSommesJeton{color: white;display: flex;font-size: x-large;}
+#SommeJeton1{}
+#SommeJeton5{margin-left: 62px;}
+#SommeJeton10{margin-left: 46px;}
+#SommeJeton20{margin-left: 41px;}
+#SommeJeton50{margin-left: 50px;}
+#SommeTotal{}
+#placejeton{display: grid;margin-left: 220px;margin-top: -60px;position: fixed;height: 60px;}
+#ValeurPlaceJeton{background-color: black;color: white;text-align: center;font-size: large;}
+/************************************************/
+
+/* Gestion des Boutons */
+.Button{background-color: transparent;color: white;font-size: x-large;}
+#BouttonPlay{display: inline-grid;margin-top: 2.5%;}
+/************************************************/
+
+/* Gestion de l'affichage des Resultats */
+#ResultBox{width:auto;height: auto;color: white;}
+#game-status{font-size: xxx-large;margin-top: 110px}
+/************************************************/

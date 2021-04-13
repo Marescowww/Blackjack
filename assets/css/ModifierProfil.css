@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: black;color: white;}
+.grid-container {
+  display: inline-flex;
+  grid-template-columns: 100px 100px 100px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Button{
+background-color: transparent;
+cursor: pointer;
+}
+.ButtonW{
+background-color: transparent;
+color: white;
+}
+.Boiteid{
+  border: solid white;
+  margin: 0px 30%;
+  padding-bottom: 20px;
+  border-radius: 50px;
+}

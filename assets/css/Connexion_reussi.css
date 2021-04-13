@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#canvas {
+background-color: black;
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ min-width: 100%;
+ min-height: 100%;
+text-align: center;
+color: white;
+}
+#Warning{
+	width:500px;
+}
+#Text{
+
+	 font-weight: bold;
+    font-size: x-large;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: black;
+	color: white;
+}
+#Inscription{
+
+}
+#BoxInscription{
+	width: 226px;
+	height: 225px;
+  border: solid white;
+  margin: 0px 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+.input{
+	width: 180px
+}
+.Button{
+background-color: transparent;
+color: white;
+margin-top: 10px;
+}
+#password{
+  width: 150px;
+}
+.Boiteid{
+  border: solid white;
+  margin: 0px 200px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+}

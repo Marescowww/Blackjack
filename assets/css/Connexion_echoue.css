@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: black;
+}
+#canvas {
+background-image: url("../img/2024235-ffffff.svg");
+background-size: contain;
+	background-repeat: no-repeat;
+text-align: center;
+color: gold;
+	width: 700px;
+    height: 600px;
+}
+#Text{
+	    padding-top: 38%;
+	 font-weight: bold;
+    font-size: x-large;
+}

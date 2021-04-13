@@ -1,0 +1,21 @@
+/* CSS DOCUMENT */
+
+body{
+	background-color: black;
+	color: white;
+
+}
+#IndexTab{
+  width: 200px;
+  border-right: solid white;
+  height: 800px;
+  float: left;
+
+}
+#LesPubs{
+  display: flex;
+  text-align: center;
+}
+#PubWEBM{
+  margin-left: 20px;
+}
