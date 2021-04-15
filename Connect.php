@@ -28,7 +28,7 @@ include("assets/php/NombreCompte.php");
 	</form>
 </div>
 	<div id="Nombre">
-	<p> Nous sommes déjà <?php echo $row['id'];$mysqli->close();?> dans l'application</p>
+	<p> Nous sommes déjà <?php echo $row['Nombre'];$mysqli->close();?> dans l'application</p>
 </div></center>
 </body>
 </html>

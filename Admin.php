@@ -10,7 +10,7 @@
 <body><center>
 	<h1>Admin</h1>
 <div id="canvas">
-	<form action="assets/php/Connexion.php" method="post">
+	<form>
 	<div id="Champ">
 		<label for="email">Email</label>
 	<input type="email" placeholder="Votre email" name="email"  autocomplete="on"><br>
