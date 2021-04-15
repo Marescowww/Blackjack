@@ -1,3 +1,8 @@
+<?php
+$requser = $bdd->prepare("SELECT * FROM `admin`");
+$requser->execute();
+$admin = $requser->fetch();
+ ?>
 <center>
 <h2>Gestion de la pub</h2>
 </center>

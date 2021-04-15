@@ -19,3 +19,14 @@ body{
 #PubWEBM{
   margin-left: 20px;
 }
+table{
+  border-collapse: collapse
+}
+
+td{
+  border: 1px solid white;
+  padding: 10px;
+}
+a{
+  color: white;
+}

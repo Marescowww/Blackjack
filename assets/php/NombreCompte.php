@@ -1,6 +1,6 @@
 	<?php
 		$mysqli = new mysqli("localhost", "root", "", "blackjack");
-		$requete = "SELECT * FROM accounts ORDER BY id DESC LIMIT 1";
+		$requete = "SELECT COUNT(*)+1 AS Nombre FROM accounts";
 		$resultat = $mysqli -> query($requete);
 		$row = $resultat->fetch_assoc();
 ?>

@@ -10,7 +10,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0) {
    $userinfo = $requser->fetch();
 
 
-	$requserJetons = $bdd->prepare('SELECT id, mail,user,jeton1,jeton5,jeton10,jeton20,jeton50,jeton100,total FROM accounts INNER JOIN jetons ON accounts.id = jetons.idjoueur ORDER BY jetons.total ASC LIMIT 1');
+	$requserJetons = $bdd->prepare('SELECT id, mail,user,jeton1,jeton5,jeton10,jeton20,jeton50,total FROM accounts INNER JOIN jetons ON accounts.id = jetons.idjoueur ORDER BY jetons.total ASC LIMIT 1');
 	$requserJetons->execute();
 	$jetoninfo = $requserJetons->fetch();
   $recupJetons = $bdd->prepare('SELECT * FROM jetons WHERE idjoueur = ?');

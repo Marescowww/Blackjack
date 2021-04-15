@@ -11,7 +11,7 @@ $NombreJeton10->execute(array($getid));
 $ResultNBJeton10 = $NombreJeton10->fetch();
 $Addition = $ResultNBJeton10['jeton10'];
 
- $requser10 = $bdd->prepare("INSERT INTO `money` (`idjoueur`, `+10`, `+100`, `+500`) VALUES (?, 'Oui', 'Non', 'Non')");
+ $requser10 = $bdd->prepare("INSERT INTO `money` (`idjoueur`, `+10`, `+100`, `+500`,`€`) VALUES (?, 'Oui', 'Non', 'Non','0.10')");
  $requser10->execute(array($getid));
 
 

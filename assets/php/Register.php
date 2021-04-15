@@ -21,7 +21,7 @@
     }
 
 	  $sql = "INSERT INTO accounts (mail,user,password) VALUES ('$email','$user','$password')";
-	  $jetons = "INSERT INTO jetons (jeton1,jeton5,jeton10,jeton20,jeton50,jeton100,total) VALUES (10,10,10,10,10,10,1860)";
+	  $jetons = "INSERT INTO jetons (jeton1,jeton5,jeton10,jeton20,jeton50,total) VALUES (10,10,10,10,10,1860)";
 	  $victory ="INSERT INTO victory (player,dealer) VALUES (0,0)";
 
 	  if ($mysqli->query($sql) === TRUE && $mysqli->query($jetons)===TRUE && $mysqli->query($victory)===TRUE) {
