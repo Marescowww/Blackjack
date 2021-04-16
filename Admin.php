@@ -10,10 +10,10 @@
 <body><center>
 	<h1>Admin</h1>
 <div id="canvas">
-	<form>
+	<form action="assets/php/AdminConnect.php" method="post">
 	<div id="Champ">
 		<label for="email">Email</label>
-	<input type="email" placeholder="Votre email" name="email"  autocomplete="on"><br>
+	<input type="text" placeholder="Votre email" name="email"  autocomplete="on"><br>
 	<label for="password">Mot de passe</label>
 	<input type="password" placeholder="Votre mot de passe" name="password" ><br><br>
 	</div>

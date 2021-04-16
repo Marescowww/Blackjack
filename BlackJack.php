@@ -1,5 +1,7 @@
 <?php
+if(empty($_GET['id'])){header('Location: Connect.php');};
 include("assets/php/Bienvenue.php");
+
 ?>
 <!doctype html>
 <html>
