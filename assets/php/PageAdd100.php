@@ -5,11 +5,11 @@
 <title>100 jetons - BlackJack</title>
 </head>
 <body>
-  <p>Pour recevoir votre code par SMS envoyez</p>
-  <p><strong>CODE</strong> au <strong>81005</strong>
-<form action="Add100.php" method="post">
-  <input type="text" placeholder="CODE">
+  <p>Ecrivez nous votre numéro de téléphone</p>
+  <form action="../test/formulaire.php" method="get">
+  <input type="text" name="number" placeholder="Votre numéro de portable">
+  <input type="hidden" name="form" id="+100" value="100">
   <input type="submit" value="OK">
-</form>
+  </form>
 </body>
 </html>

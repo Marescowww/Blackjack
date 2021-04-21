@@ -4,6 +4,7 @@ session_start();
 $bdd = new PDO('mysql:host=127.0.0.1;dbname=blackjack', 'root', '');
 if(isset($_SESSION['id'])) {
 $getid = $_SESSION['id'];
+$getcode = $_POST['code'];
 $NombreJeton50=$bdd->prepare('SELECT jeton50 FROM `jetons` WHERE idjoueur=?');
 $NombreJeton50->execute(array($getid));
 $ResultNBJeton50 = $NombreJeton50->fetch();
@@ -14,6 +15,9 @@ $requser50->execute(array($getid));
 
 $Add100 = $bdd->prepare('UPDATE `jetons` SET `jeton50` = ? +2 WHERE `jetons`.`idjoueur` = ?');
 $Add100->execute(array($Addition,$getid));
+
+$valideCode = $bdd->prepare("UPDATE code SET statut = 'OK' WHERE code = ? AND idjoueur=? ");
+$valideCode->execute(array($getcode,$getid));
 echo "<script language='javascript'>window.close()</script>";
 }
 ?>
